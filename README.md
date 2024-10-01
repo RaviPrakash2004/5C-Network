@@ -78,8 +78,7 @@ bash
 python predict.py --model attention_unet --input ./path_to_image
 
 
-## Video Demo
-Here is a [video demonstration](#) of the Streamlit UI in action, showing metastasis segmentation results.
+
 
 ## Challenges in Brain Metastasis Segmentation
 1. Data Scarcity: A limited amount of annotated medical data.
@@ -91,12 +90,3 @@ Here is a [video demonstration](#) of the Streamlit UI in action, showing metast
 3. Class Imbalance: There are significantly more non-metastasis regions compared to metastasis regions.
    - Solution: Loss functions such as focal loss were used to handle class imbalance by emphasizing harder-to-classify regions.
 
-## Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This template provides a comprehensive guide to your project, including descriptions of the models, setup instructions, challenges, and solutions. You can adapt it to suit your specific project and data.
